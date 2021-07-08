@@ -1,0 +1,147 @@
+.president-card {
+  /* Add shadows to create the "card" effect */
+  width: 350px;
+  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-left: 375px;
+  margin-top: 80px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.president-card:hover {
+  box-shadow: 0 8px 16px 0 black;
+}
+
+/* Add some padding inside the card container */
+.president-container {
+  padding: 2px 16px;
+}
+
+.lr-card{
+  width: 350px;
+  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 40px;
+  margin-top: -300px;
+}
+
+.lr-card:hover{
+  box-shadow: 0 8px 16px 0 black;
+}
+
+.lr-container{
+  padding: 2px 16px;
+}
+
+.cr-card{
+  width: 350px;
+  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 40px;
+  margin-top: -470px;
+  margin-left: 750px;
+}
+
+.cr-card:hover{
+  box-shadow: 0 8px 16px 0 black;
+}
+
+.cr-container{
+  padding: 2px 16px;
+}
+
+.hr-card{
+  width: 350px;
+  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 40px;
+}
+
+.hr-card:hover{
+  box-shadow: 0 8px 16px 0 black;
+}
+
+.hr-container{
+  padding: 2px 16px;
+}
+
+.finance-card{
+  width: 350px;
+  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 40px;
+  margin-left: 375px;
+  margin-top: -470px;
+}
+
+.finance-card:hover{
+  box-shadow: 0 8px 16px 0 black;
+}
+
+.finance-container{
+  padding: 2px 16px;
+}
+
+.pr-card{
+  width: 350px;
+  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 40px;
+  margin-left: 750px;
+  margin-top: -470px;
+}
+
+.pr-card:hover{
+  box-shadow: 0 8px 16px 0 black;
+}
+
+.pr-container{
+  padding: 2px 16px;
+}
+
+.social{
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.fa-facebook{
+  color:black ;
+}
+
+.fa-facebook:hover{
+  color: #12cc2e;
+}
+
+.fa-instagram{
+  color: black;
+}
+
+.fa-instagram:hover{
+  color: #12cc2e;
+}
+
+.fa-linkedin{
+  color:black;
+}
+
+.fa-linkedin:hover{
+  color: #12cc2e;
+}
+
+.fa-github{
+  color: black;
+}
+
+.fa-github:hover{
+  color: #12cc2e;
+}
